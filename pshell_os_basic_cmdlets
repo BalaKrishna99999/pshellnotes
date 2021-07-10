@@ -1,0 +1,9 @@
+if you want to get to know about os info these are the basic cmdlets that helps to work on . i.e
+
+(get-wmiobject -class win32_operatingsystem).version
+
+(get-wmiobject -class win32_operatingsystem).osarchitecture
+
+(get-wmiobject -class win32_operatingsystem).csname
+
+(get-wmiobject -class win32_operatingsystem).caption
